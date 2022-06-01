@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd
+grep -w '^0122sandile' /etc/passwd
